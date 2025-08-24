@@ -12,7 +12,7 @@ interface CardProps {
 const CardAdmin: React.FC<CardProps> = ({ product, onEdit, onDelete }) => {
   return (
     <div className='mx-auto flex justify-beetween items-start flex-wrap gap-4'>
-      <div className='flex flex-col items-center w-[389px] bg-default-white rounded-md shadow-md'>
+      <div className='mx-auto flex flex-col items-center w-[389px] bg-default-white rounded-md shadow-md'>
         <div className='p-5'>
           <img
             className="object-cover rounded-md w-[344px] h-[193px]"
