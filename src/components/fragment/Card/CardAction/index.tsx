@@ -57,7 +57,9 @@ const CardAction: React.FC<CardActionProps> = ({ product }) => {
                   <small>3.5</small>
                   <small>(86)</small>
                 </div>
-                <h3 className="text-main-primary text-xl font-poppins font-bold">Rp {product.price}</h3>
+                <h3 className="text-main-primary text-xl font-poppins font-bold">
+                  Rp {new Intl.NumberFormat("id-ID").format(product.price)}
+                </h3>
               </div>
             </div>
           </div>

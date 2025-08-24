@@ -47,7 +47,9 @@ const CardAdmin: React.FC<CardProps> = ({ product, onEdit, onDelete }) => {
               <small>3.5</small>
               <small>(86)</small>
             </div>
-            <h3 className="text-main-primary text-xl font-poppins font-bold">Rp {product.price}</h3>
+            <h3 className="text-main-primary text-xl font-poppins font-bold">
+              Rp {new Intl.NumberFormat("id-ID").format(product.price)}
+            </h3>
           </div>
 
           <div className="flex justify-end gap-2 mt-4 py-2">
