@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import type { IProduct } from "../Types"
-import { localStorageProduct } from "../../../../../utils/localStorageProduct";
+import type { IProduct } from "../Types";
 import Button from "../../../../fragment/Button";
 
 interface ProductModalPageProps {
